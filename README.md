@@ -1,7 +1,7 @@
-#ECS Fargate Demo
+# ECS Fargate Demo
 Spring Boot sample application instrumented with AWS X-Ray and corresponding AWS CDK infrastructure to deploy on AWS ECS Fargate
 
-#How to build
+# How to build
 ```shell
 $ ./mvnw clean verify
 $ docker build -t <your docker repo>/ecs-demo:latest .
