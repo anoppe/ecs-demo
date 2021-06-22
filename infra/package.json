@@ -1,0 +1,27 @@
+{
+  "name": "AWS ECS Demo infrastructure",
+  "version": "1.0.0",
+  "description": "Running an application on Fargate",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Auke Noppe",
+    "url": "https://github.com/anoppe"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^8.10.38",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "*",
+    "@aws-cdk/aws-ecs": "*",
+    "@aws-cdk/aws-ecs-patterns": "*",
+    "@aws-cdk/core": "*",
+    "@aws-cdk/aws-iam": "*"
+  }
+}
